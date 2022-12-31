@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --clr-principal: rgba(33, 201, 106, 0.609);
+}
+
+body,
+html {
+    background-color: rgb(250, 243, 234);
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--clr-principal);
+    
+
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.form {
+    height: 600px;
+    width: 600px;
+    background-color: var(--clr-principal);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.input {
+    border-radius: 5px;
+    width: 70%;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+input {
+    margin: 20px;
+}
+
+input::placeholder {
+    padding-left: 20px;
+}
+
+input:active {
+    place-content: "";
+}
+
+
+.container-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.titulo{
+    font-size: 3rem;
+    font-style: oblique;
+    color: white;
+}
+
+.boton-container {
+    height: 25%;
+}
+
+.boton {
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    height: 2rem;
+    width: 10rem;
+    cursor: pointer;
+}
